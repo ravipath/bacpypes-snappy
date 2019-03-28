@@ -1,0 +1,18 @@
+EOF
+help
+bugin
+read
+read 114
+read help
+help
+help read
+read 114 1 2 201
+read 192.168.178.55 1 2 201
+read help
+help read
+read 192.168.178.55 analog-input 201 present-value
+help read
+read 114 analog-input 201 present-value
+help read
+read help
+EOF

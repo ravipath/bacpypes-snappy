@@ -1,0 +1,34 @@
+help
+whois
+iam
+whois 114
+whois 192.168.178.55
+whois 192.168.178.228
+help shell
+shell
+!cd
+rgpolmeo
+mkdir
+!mkdir rppp
+help rtn
+help gc
+gc
+help
+help buggers
+buggers
+help bugin
+bugin __main__
+whois
+whois 192.168.178.55
+EOF
+buggers
+bugin __main__
+whois
+iam
+EOF
+iam
+bugin __main__
+iam
+whois FFFF
+whois 192.168.178.228
+EOF
