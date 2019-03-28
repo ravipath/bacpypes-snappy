@@ -15,7 +15,7 @@ setup(
     description='test python snap',
     #url='https://github.com/ravipath/testpythonsnapping.git',
     entry_points={
-        'console_scripts': ['whoisiam = whoisiam.__main__:main'],
+        'console_scripts': ['whoisiam = whoisiam:main'],
         }
     #long_description=get_long_description(),
     #py_modules=[package_name],
