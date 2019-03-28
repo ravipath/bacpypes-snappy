@@ -14,7 +14,9 @@ setup(
     #author_email='ravipathak.de@gmail.com',
     description='test python snap',
     #url='https://github.com/ravipath/testpythonsnapping.git',
-    scripts=['whoisiam.py']
+    entry_points={
+        'console_scripts': ['whoisiam = whoisiam.__main__:main'],
+        }
     #long_description=get_long_description(),
     #py_modules=[package_name],
     #license='License :: OSI Approved :: MIT License',
