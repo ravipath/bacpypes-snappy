@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-package_name = 'whoisiam'
+package_name = 'WhoIsIAm'
 filename = package_name + '.py'
 
 setup(
