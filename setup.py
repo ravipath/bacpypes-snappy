@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-package_name = 'WhoIsIAm'
+package_name = 'whoisiam'
 filename = package_name + '.py'
 
 setup(
@@ -14,7 +14,7 @@ setup(
     #author_email='ravipathak.de@gmail.com',
     description='test python snap',
     #url='https://github.com/ravipath/testpythonsnapping.git',
-    scripts=['WhoIsIAm.py']
+    scripts=['whoisiam.py']
     #long_description=get_long_description(),
     #py_modules=[package_name],
     #license='License :: OSI Approved :: MIT License',
