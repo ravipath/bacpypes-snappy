@@ -17,6 +17,7 @@ setup(
     entry_points={
         'console_scripts': ['whoisiam = whoisiam:main'],
         }
+    scripts=['BACpypes.ini']
     #long_description=get_long_description(),
     #py_modules=[package_name],
     #license='License :: OSI Approved :: MIT License',
