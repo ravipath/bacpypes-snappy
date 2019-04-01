@@ -6,6 +6,7 @@ from setuptools import setup
 
 package_name = 'whoisiam'
 filename = package_name + '.py'
+inifile = 'BACpypes.ini'
 
 setup(
     name=package_name,
@@ -14,7 +15,7 @@ setup(
     #author_email='ravipathak.de@gmail.com',
     description='test python snap',
     #url='https://github.com/ravipath/testpythonsnapping.git',
-    py_modules=[package_name],
+    py_modules=[package_name, inifile],
     entry_points={
         'console_scripts': ['whoisiam = whoisiam:main'],
         },
