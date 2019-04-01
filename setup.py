@@ -14,6 +14,7 @@ setup(
     #author_email='ravipathak.de@gmail.com',
     description='test python snap',
     #url='https://github.com/ravipath/testpythonsnapping.git',
+    py_modules=[package_name],
     entry_points={
         'console_scripts': ['whoisiam = whoisiam:main'],
         },
