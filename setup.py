@@ -4,7 +4,7 @@
 from setuptools import setup
 
 
-package_name = 'WhoIsIAm'
+package_name = 'whoisiam'
 filename = package_name + '.py'
 
 setup(
@@ -15,7 +15,7 @@ setup(
     description='test python snap',
     #url='https://github.com/ravipath/testpythonsnapping.git',
     entry_points={
-        'console_scripts': ['WhoIsIAm = WhoIsIAm:main'],
+        'console_scripts': ['whoisiam = whoisiam:main'],
         },
     scripts=['BACpypes.ini']
     #long_description=get_long_description(),
